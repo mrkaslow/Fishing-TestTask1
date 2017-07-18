@@ -14,13 +14,19 @@ public class App : MonoBehaviour {
         public GameObject LeftFrame;
         public Image FillMeter;
         public GameObject playerRod;
-        public GameObject UI;
+        public GameObject UIGameplay;
+        public GameObject UIMenu;
+        public Button playButton;
+        public Button restartButton;
+        public Button closeButton;
+        public Text ScoreText;
     }
 
     [Serializable]
     public class Model
     {
         public GamePrefabs prefabs;
+        public ScoreModel score;
     }
 
     [Serializable]

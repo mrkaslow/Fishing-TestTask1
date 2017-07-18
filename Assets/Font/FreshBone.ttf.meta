@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5e7344f31590b76478befb71f9b388eb
+timeCreated: 1500410302
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FreshBone
+  fontNames:
+  - FreshBone
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

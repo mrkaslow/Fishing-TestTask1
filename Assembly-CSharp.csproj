@@ -52,17 +52,16 @@
   <ItemGroup>
     <Compile Include="Assets\ScriptableObjects\GamePrefabs.cs" />
     <Compile Include="Assets\Scripts\App.cs" />
-    <Compile Include="Assets\Scripts\CatchingState.cs" />
+    <Compile Include="Assets\Scripts\Controllers\FillMeterController.cs" />
     <Compile Include="Assets\Scripts\Controllers\GameController.cs" />
-    <Compile Include="Assets\Scripts\EscapeState.cs" />
-    <Compile Include="Assets\Scripts\FillMeterController.cs" />
-    <Compile Include="Assets\Scripts\FloatingState.cs" />
-    <Compile Include="Assets\Scripts\IFishState.cs" />
-    <Compile Include="Assets\Scripts\InputController.cs" />
-    <Compile Include="Assets\Scripts\MissingState.cs" />
-    <Compile Include="Assets\Scripts\RodController.cs" />
-    <Compile Include="Assets\Scripts\StatePatternFish.cs" />
-    <Compile Include="Assets\Scripts\WinState.cs" />
+    <Compile Include="Assets\Scripts\Controllers\InputController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\RodController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\StatePatternFish.cs" />
+    <Compile Include="Assets\Scripts\Model\ScoreModel.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\EscapeState.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\FloatingState.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\IFishState.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\WinState.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

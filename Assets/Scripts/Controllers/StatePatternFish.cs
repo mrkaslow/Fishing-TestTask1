@@ -9,8 +9,7 @@ public class StatePatternFish : MonoBehaviour
 {
 	[HideInInspector]
 	public IFishState currentState;
-	[HideInInspector]
-	public CatchingState catchingState;
+
 	[HideInInspector]
 	public WinState winState;
 	[HideInInspector]
@@ -66,6 +65,7 @@ public class StatePatternFish : MonoBehaviour
 
 	public void ResetFish()
 	{
+		App.Instance.model.score.Score++;
 		currentState = floatingState;
 		transform.localScale = Vector3.one;
 		transform.localPosition = Vector3.zero;
